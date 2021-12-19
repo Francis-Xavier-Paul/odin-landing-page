@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .header {
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 1em 10% 1em;
+    padding: 1.6em 10% 0em;
     justify-content: space-between;
     align-items: baseline;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .left-nav > a {
@@ -23,4 +26,67 @@ body {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.splash-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: #1f2937;
+    padding: 0 10%;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.content {
+    max-width: 80ch;
+}
+
+h1{
+    margin: 0;
+}
+
+.hero-secondary-text > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 40ch;
+    margin-top: 0px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background: #3882F6;
+    font-size: 1.1em;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.main-image img {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.second-page {
+    height: 90vh;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+
+.image-container {
+    width: 200px;
+    background: black;
+    height: 200px;
 }
