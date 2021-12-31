@@ -76,17 +76,55 @@ button {
 }
 
 .second-page {
-    height: 90vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .carousel {
     display: flex;
     justify-content: center;
-    gap: 7%;
+    gap: 15%;
+    padding-bottom: 5em;
 }
 
 .image-container {
     width: 200px;
-    background: black;
     height: 200px;
+}
+
+.second-page h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.second-page p {
+    text-align: center;
+}
+
+.second-page img {
+    max-width: 150px;
+}
+
+.third-page {
+    background-color: #e5e7eb;
+
+}
+
+.main-quote h2 {
+   font-size: 36px;
+   font-weight: lighter;
+   color: #1f2937;
+   font-style: italic; 
+   padding: 15% 15% 0 15%;
+}
+
+.quote-author p {
+    text-align: right;
+    padding: 0 15% 10% 15%;
+    font-weight: bold;
+    font-size: 1.3em;
 }
