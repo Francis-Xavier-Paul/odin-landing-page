@@ -122,9 +122,51 @@ button {
    padding: 15% 15% 0 15%;
 }
 
+
 .quote-author p {
     text-align: right;
     padding: 0 15% 10% 15%;
     font-weight: bold;
     font-size: 1.3em;
+}
+
+.fourth-page {
+    color: white;
+}
+
+.cta {
+    margin: 6% 8% 6% 8%;
+    padding: 1.5% 1% 1.5%;
+    background: #3882f6;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.cta-button button {
+    border: solid 2px white;
+    font-size: 1.4em;
+}
+
+.cta-text h3 {
+    margin-bottom: 0;
+    font-size: 1.6em;
+}
+
+.cta-text p {
+    margin-top: 6px;
+    font-size: 1.1em;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 2%;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
 }
